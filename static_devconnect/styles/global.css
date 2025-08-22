@@ -1,0 +1,46 @@
+/*1 forma de usar uma fonte*/
+/*@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*2 forma de usar uma fonte*/
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(../assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf),
+        url(../assets/fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf),
+        url(../assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
+}
+
+/* variaveis */
+:root {
+    --cor-azul-marinho: #13293D;
+    --cor-azul: #1B98E0;
+    --cor-branco: #E8F1F2;
+    --cor-lapis-lazuli: #006494;
+    --cor-cerulian: #247BA0;
+    --cor-preto: #000000;
+    --cor-cerulian: #247BA0;
+
+    --borda: 1px solid var(--cor-branco)
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+/*Seletor Global*/
+* {
+    padding: 0;/*espaço interno*/
+    margin: 0;/*espaço externo*/
+    box-sizing: border-box; /*atribui espaços interno/externos e bordas no tamanho final do box*/
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    background-color: var(--cor-azul-marinho);
+}
+
+h1{
+    position: absolute;/*altera a posição do elemento*/
+    z-index: -1;/*camadas do elemento*/
+    opacity: 0;/*opacidade*/
+}
