@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kauã Fidalgo">
+  <meta name="description" content="Site da empresa DevConnect">
+  <title>Cadastro do Usuário - DevConnect</title>
+
+  <link rel="shortcut icon" href="../assets/images/logo-devconnect-lg.svg">
+  <link rel="stylesheet" href="../styles/cadastro.css">
+  <link rel="stylesheet" href="../styles/global.css">
+</head>
+
+<body>
+  <main>
+    <div class="container-cadastro">
+
+      <form class="estilo-formulario-cadastro">
+
+        <img src="../assets/images/logo-devconnect-lg.svg" alt="Logo DevConnect" class="logo">
+
+        <h5 >Plataforma criada para desenvolvedores(as)</h3>
+
+        <div class="cadastro-campos">
+          <label for="nome">Nome e sobrenome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="cadastro-campos">
+          <label for="usuario">Nome de usuário</label>
+          <input type="text" id="usuario" name="usuario" required>
+        </div>
+
+        <div class="cadastro-campos">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="cadastro-campos">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" required>
+        </div>
+
+        <div class="cadastro-campos">
+          <label for="imagem" class="botao-upload" id="texto-upload">
+            Faça upload da sua imagem aqui...
+          </label>
+          <input type="file" id="imagem" name="imagem" accept="image/*">
+        </div>
+        <button type="submit" class="formulario-botao-cadastro">Cadastre-se</button>
+
+        <p class="texto-termos">
+          Ao se cadastrar, você concorda com nossos <a href="#">Termos</a>,
+          <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>.
+        </p>
+      </form>
+
+      <section id="secao-conta" class="estilo-formulario-cadastro">
+        <p>Já tem uma conta? <a href="../pages/index.html">Conecte-se</a></p>
+      </section>
+
+      <p class="titulo-app">Obtenha o aplicativo</p>
+
+      <section id="secao-instalacao">
+        <img src="../assets/images/google-play.svg" alt="Instale no Google Play">
+        <img src="../assets/images/app-store.svg" alt="Instale na App Store">
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>

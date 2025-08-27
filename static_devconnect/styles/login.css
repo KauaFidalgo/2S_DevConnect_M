@@ -1,5 +1,5 @@
 main{
-    background-color: rgb(42, 40, 126);
+    background-color: rgb(255, 255, 255);
     min-height: 100vh;/*minimo de altura da janela do dispositivo*/
     width: 100%;
     display: flex;/*ativa o flex*/
@@ -8,9 +8,8 @@ main{
 }
 
 main > div{
-    background-color: rgb(255, 255, 255);
-    max-width: 342px;
-    width: 100%;
+    background-color: var(--cor-azul);
+    width: 90%;
     /*height: 600px;*/
     display: flex;
     flex-direction: column;
@@ -20,17 +19,60 @@ main > div{
 }
 
 form{
-    background-color: #1B98E0;
+    /*background-color: #1B98E0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 3%;
 }
 
-#secao-cadastro{
-    background-color: #1B98E0;
+.formulario-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.formulario-botao-azul{
+   width: 100%;
+}
+
+form > p{
+    text-transform: uppercase; /*deixe o texto em maiusculo*/
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+}
+
+form > a, #secao-cadastro > p > a{
+    color: var(--cor-azul);
+    font-size: var(--tamanho-fonte-sm);
+    text-decoration: none;/*remove a decoração (sublinhado) que vem por baixo do link*/
+}
+
+#secao-cadastro > p{
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
 }
 
 .estilo-formulario{
-    background-color: #1B98E0;
-    border: var(--borda);
+    max-width: 342px;
     width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: var(--borda);
+}
+
+#secao-cadastro{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div>p{
+    background-color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
 }
 
 main > div >p{

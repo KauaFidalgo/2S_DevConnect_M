@@ -1,0 +1,130 @@
+main {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cadastro {
+    background-color: var(--cor-azul);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.estilo-formulario-cadastro {
+    max-width: 342px;
+    width: 100%;
+    background-color: #fff;
+    border: var(--borda);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.cadastro-campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.cadastro-campos > input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.formulario-botao-cadastro {
+    width: 100%;
+    background-color: var(--cor-azul);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;   
+}
+
+.formulario-botao-cadastro {
+    background-color: #005fa3;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.botao-upload {
+  display: inline-block;
+  padding: 12px;
+  background-color: var(--cor-azul);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#texto-upload{
+    display: inline-block;
+    width: 300px;
+    background-color: var(--cor-azul    );
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+label{
+    display: inline-block;
+    width: 300px;
+}
+
+.texto-termos {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+#secao-conta {
+    color: #000;
+    font-size: 14px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#secao-conta > a {
+    color: var(--cor-azul);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titulo-app {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+#secao-instalacao {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
