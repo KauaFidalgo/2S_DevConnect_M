@@ -19,7 +19,6 @@ main {
 }
 
 .estilo-formulario-cadastro {
-    max-width: 342px;
     width: 100%;
     background-color: #fff;
     border: var(--borda);
@@ -29,6 +28,13 @@ main {
     align-items: center;
     padding: 20px;
     gap: 15px;
+}
+
+.estilo-formulario{
+    width: 100%;
+    background-color: var(--cor-branco);
+    border: var(--borda);
+    max-width: 342px;
 }
 
 .logo {
@@ -61,33 +67,6 @@ main {
 
 .formulario-botao-cadastro {
     background-color: #005fa3;
-}
-
-input[type="file"] {
-  display: none;
-}
-
-.botao-upload {
-  display: inline-block;
-  padding: 12px;
-  background-color: var(--cor-azul);
-  color: #fff;
-  font-weight: bold;
-  border-radius: 6px;
-  text-align: center;
-}
-
-#texto-upload{
-    display: inline-block;
-    width: 300px;
-    background-color: var(--cor-azul    );
-    border-radius: 2px;
-    color: #ffffff;
-}
-
-label{
-    display: inline-block;
-    width: 300px;
 }
 
 .texto-termos {

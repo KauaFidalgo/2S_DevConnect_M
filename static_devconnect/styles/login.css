@@ -58,9 +58,6 @@ form > a, #secao-cadastro > p > a{
 
 .estilo-formulario{
     max-width: 342px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border: var(--borda);
 }
 
 #secao-cadastro{
