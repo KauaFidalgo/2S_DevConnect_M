@@ -40,7 +40,7 @@
 }
 
 body {
-    background-color: var(--cor-azul-marinho);
+    background-color: var(--cor-branco-mais-menos);
 }
 
 h1 {
@@ -154,7 +154,7 @@ label{
     align-items: center;
 }
 
-#foto-perfil {
+.foto-perfil{
     width: 40px;
     height: 40px;
     object-fit: cover;

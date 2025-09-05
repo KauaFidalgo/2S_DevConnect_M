@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: var(#E8F1F2);
+}
+
