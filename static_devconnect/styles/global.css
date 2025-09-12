@@ -39,12 +39,12 @@
     font-family: "Libre Baskerville", serif;
 }
 
-body {
+body {  
     background-color: var(--cor-branco-mais-menos);
 }
 
 h1 {
-    position: absolute;
+    position:   absolute;
     /*altera a posição do elemento*/
     z-index: -1;
     /*camadas do elemento*/
@@ -76,7 +76,7 @@ h1 {
 .formulario-campos>label {
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-preto);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 input[type="file"] {

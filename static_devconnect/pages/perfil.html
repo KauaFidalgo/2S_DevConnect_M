@@ -9,9 +9,6 @@
 
     <title> Perfil - DevConnect </title>
 
-    <!--EMMET-->
-    <link rel="shortcut icon" href="../assets/images/logo-devconnect-lg.svg" type="image/x-icon">
-
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/perfil.css">
 </head>
@@ -32,15 +29,14 @@
 
             <div class="cabecalho-acoes">
                 <a href="./perfil.html">
-                    <img src="../assets/images/icone-casa-azul.svg" alt="">
+                    <img src="../assets/images/icone-casa-azul.svg" alt="Casa">
                 </a>
                 <a href="#">
-                    <img src="../assets/images/icone-coracao-azul.svg" alt="">
+                    <img src="../assets/images/icone-coracao-azul.svg" alt="Curtidas">
                 </a>
                 <a href="#">
-                    <img src="../assets/images/icone-comentario-preto.svg" alt="">
+                    <img src="../assets/images/icone-comentario-preto.svg" alt="Comentários">
                 </a>
-
             </div>
         </nav>
     </header>
@@ -48,12 +44,46 @@
 
     <!-- Inicio main -->
     <main>
-        <section>
-            <div>
+        <section class="perfil-info">
+            <!-- Foto e informações do perfil -->
+            <div id="perfil-all">
+                <div id="foto-perfil">
+                    <img src="../assets/images/OIP (6).jpg" alt="Foto de perfil">
+                </div>
+                <div class="informacoes-perfil">
+                    <h2>fidalgo.g7</h2>
+                    <p>3 publicações | 128 seguindo | 214 seguidores</p>
+                    <div class="acoes-perfil">
+                        <a href="#">Editar Perfil</a>
+                        <a href="#">Sair</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Publicações -->
+            <div class="publicacoes">
+                <h3>Publicações</h3>
+                <div class="publicacao">
+                    <p><strong>fidalgo.g7</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="interacoes">
+                        <span>2170 curtidas</span>
+                        <a href="#">Ver todos os comentários...</a>
+                    </div>
+                </div>
+                <div class="publicacao">
+                    <p><strong>fidalgo.g7</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="interacoes">
+                        <span>2870 curtidas</span>
+                        <a href="#">Ver todos os comentários...</a>
+                    </div>
+                </div>
+                <!-- Adicionar mais publicações conforme necessário -->
             </div>
         </section>
     </main>
     <!-- Fim main -->
+
 </body>
 </html>
