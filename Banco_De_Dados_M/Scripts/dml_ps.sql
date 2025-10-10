@@ -2,7 +2,10 @@
 USE db_devconnect;
 
 INSERT INTO tb_usuario(nome_completo,nome_usuario,email,senha,foto_perfil_url)
-VALUES('Eduardo Costa','educosta','educosta@gmail.com','semsenha','www.com.DevConnect/edu');
+VALUES
+
+('Davi','davilep','davi2@gmail.com','semlep','www.com.DevConnect/davi');
+('Eduardo Costa','educosta','educosta@gmail.com','semsenha','www.com.DevConnect/edu');
 
 SELECT * FROM tb_usuario;
 
@@ -29,7 +32,7 @@ SELECT * FROM tb_seguidor;
 
 
 SELECT 
-	descricao as PUBLICACAO, 
+	descricao AS PUBLICACAO, 
 	nome_completo AS AUTOR 
 
 FROM tb_publicacao 

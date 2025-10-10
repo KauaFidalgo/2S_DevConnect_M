@@ -4,7 +4,7 @@ CREATE DATABASE db_devconnect;
 GO 
 
 CREATE TABLE tb_usuario(
-	id	 INT		IDENTITY(1,1) PRIMARY KEY 
+	id	  INT		 IDENTITY(1,1)     PRIMARY KEY 
 	,nome_completo   NVARCHAR(255)     NOT NULL
 	,nome_usuario	 NVARCHAR(50)      NOT NULL  UNIQUE
 	,email			 NVARCHAR(255)     NOT NULL  UNIQUE
