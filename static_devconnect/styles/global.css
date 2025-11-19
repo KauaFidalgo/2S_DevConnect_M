@@ -113,7 +113,7 @@ label{
 
 .estilo-formulario{
     width: 100%;
-    background-color: var(--cor-branco);
+    background-color: var(--cor-branco-mais-menos);
     border: var(--borda);
 }
 

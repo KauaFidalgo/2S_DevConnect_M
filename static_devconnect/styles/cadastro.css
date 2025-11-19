@@ -8,7 +8,7 @@ main {
 }
 
 .container-cadastro {
-    background-color: var(--cor-azul);
+    background-color: var(--cor-branco-mais-menos);
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -99,7 +99,7 @@ main {
 }
 
 #secao-instalacao {
-    background-color: #fff;
+    background-color: var(--cor-branco-mais-menos);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
