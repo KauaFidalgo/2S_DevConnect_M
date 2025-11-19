@@ -1,7 +1,7 @@
 main {
     width: 100%;
     min-height: 100vh;
-    display: flex;
+    display: flex;  
     justify-content: center;
     margin-top: 20px;
 }
@@ -126,6 +126,7 @@ main {
     color: var(--cor-preto);
     font-weight: 500;
     text-transform: lowercase;
+
 }
 
 .foto-perfil{
