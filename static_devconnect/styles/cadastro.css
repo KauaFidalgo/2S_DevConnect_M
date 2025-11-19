@@ -1,5 +1,5 @@
 main {
-    background-color: #ffffff;
+    background-color: var(--cor-azul);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -8,19 +8,19 @@ main {
 }
 
 .container-cadastro {
-    background-color: var(--cor-branco-mais-menos);
+    background-color: var(--cor-azul);
     width: 100%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 .estilo-formulario-cadastro {
     width: 100%;
-    background-color: #fff;
+    background-color: var(--cor-branco);
     border: var(--borda);
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ main {
 }
 
 #secao-instalacao {
-    background-color: var(--cor-branco-mais-menos);
+    background-color: var(--cor-azul);
     display: flex;
     align-items: center;
     flex-wrap: wrap;

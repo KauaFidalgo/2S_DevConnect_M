@@ -64,7 +64,7 @@ h1 {
 }
 
 .formulario-campos>input {
-    border: var(--borda);
+    /*border: var(--borda);*/
     height: 35px;
     background-color: var(--cor-branco);
 
@@ -113,7 +113,7 @@ label{
 
 .estilo-formulario{
     width: 100%;
-    background-color: var(--cor-branco-mais-menos);
+    background-color: var(--cor-branco);
     border: var(--borda);
 }
 

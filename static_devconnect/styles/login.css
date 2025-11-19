@@ -1,5 +1,5 @@
 main{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-azul);
     min-height: 100vh;/*minimo de altura da janela do dispositivo*/
     width: 100%;
     display: flex;/*ativa o flex*/
@@ -68,16 +68,16 @@ form > a, #secao-cadastro > p > a{
 }
 
 main>div>p{
-    background-color: var(--cor-preto);
+    /*background-color: var(--cor-preto);*/
     font-size: var(--tamanho-fonte-sm);
 }
 
 main > div >p{
-    background-color: var(--cor-branco);
+    /*background-color: var(--cor-branco);*/
 }
 
 #secao-instalacao{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-azul);
     display: flex;
     align-items: center;
     flex-wrap: wrap;

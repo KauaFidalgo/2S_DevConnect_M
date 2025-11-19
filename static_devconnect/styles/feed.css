@@ -7,7 +7,7 @@ main {
 }
 
 .container-flex-publi {
-    background-color: var(--cor-lapis-lazuli);
+    background-color: var(--cor-branco-mais-menos);
     /*height: 700px;*/
     width: 90%;
     max-width: 900px;
@@ -65,6 +65,8 @@ main {
 
 #criar-publi{
     padding: 10px;
+    background-color: var(--cor-branco);
+    
 }
 
 #criar-publi > h2{
@@ -80,7 +82,7 @@ main {
     height: 110px;
     padding: 10px; /* Usado para espaço interno*/
     resize: none; /* desabilita a redimensão do tamanho do elemento */
-    border: var(--borda);
+    /*border: var(--borda);*/
 
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-sm);
@@ -99,6 +101,7 @@ main {
     justify-content: flex-end;
     padding: 20px;
     margin-top: auto;
+    background-color: var(--cor-branco);
 }
 
 /* Seção publicações */
